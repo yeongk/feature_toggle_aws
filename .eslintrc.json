@@ -1,0 +1,36 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "extends": [
+        "defaults"
+    ],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "mocha": true
+    },
+    "plugins": [
+        "security"
+    ],
+    "rules": {
+        "no-console": "off",
+        "block-scoped-var": "error",
+        "curly": "error",
+        "eqeqeq": "error",
+        "no-extend-native": "error",
+        "no-eval": "error",
+        "no-fallthrough": "error",
+        "no-implied-eval": "error",
+        "no-loop-func": "error",
+        "no-native-reassign": "error",
+        "no-new-func": "error"
+    },
+    "globals": {
+        "Buffer": true,
+        "Promise": true,
+        "__dirname": true,
+        "process": true
+    }
+}
